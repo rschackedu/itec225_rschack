@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+}
+label{
+    font-size: xx-large;
+}
+h2{
+    color: black;
+    text-decoration: underline;
+}
+.binInputLabel{
+    text-decoration: underline;
+}
+.decInputLabel{
+    text-decoration: underline;
+}
+.origInputLabel{
+    text-decoration: underline;
+}
+.binOut{
+    font-size: large;
+}
+.decOut{
+    font-size: large;
+}

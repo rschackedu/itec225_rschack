@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Varieties of Encryption</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.js"></script>
+    <script type="text/javascript" src="JS/javascript.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<div id="encryption"><br>
+<label class="origInputLabel" for="origInput" id="origInputLabel">Text to Encrypt </label><br><br>
+<input type="text" id="origInput" placeholder="Enter text here">
+<button type="button" id="submitButton" onclick="Start()">submit</button>
+
+    <h2>AES</h2>
+    <output id="aesOut" for="origInput"></output><br>
+    <h2>SHA1</h2>
+    <output id="sha1Out" for="origInput"></output><br>
+    <h2>SHA256</h2>
+    <output id="sha256Out" for="origInput"></output><br>
+    <h2>SHA512</h2>
+    <output id="sha512Out" for="origInput"></output><br><br>
+</div>
+<div class="B2D">
+    <label class="binInputLabel" for="binInput" id="binInputLabel">Binary to Decimal Converter</label><br><br>
+    <button type="button" id="binaryButton" onclick="B2D()">submit</button>
+    <input type="text" id="binInput" placeholder="Enter Binary Here">
+
+    <output class="decOut" id="decOut" for="binInput"></output><br><br>
+</div>
+<div class="D2B">
+    <label class="decInputLabel" for="decInput" id="decInputLabel">Decimal to Binary Converter</label><br><br>
+    <button type="button" id="decimalButton" onclick="D2B()">submit</button>
+    <input type="text" id="decInput" placeholder="Enter Decimal Here">
+
+    <output class="binOut" id="binOut" for="decInput"></output><br>
+</div>
+</body>
+</html>
